@@ -1,34 +1,92 @@
-.parent {
-    border: 1px solid gray;
-    padding: 10px;
+body {
+    background-color: #FAFAFA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+b {
+    color: black;
+}
+.masterbox {
     display: flex;
+}
+#instalogo {
+    width: 33%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 150px;
+    display:flex;
+}
+.contents {
+    width: 70%;
+    align-items: center;
+    justify-content: flex-start;
+    }
+.topbar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+#igtext{    
+    display: flex;
+    font-size: large;
+}
+#followingbutton {
+    display: flex;
+    justify-content: center;
+}
+#more {
+    justify-content: flex-end;
+    font-size: large;
+}
+.numbers {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#posts{
+    display: flex;
+}
+#followers{
+    justify-content: center;
+}
+#following{
+    justify-content: center;
+}
+.bio {
+    display: flex;
+    justify-content: space-around;
     flex-direction: column;
 }
-
-.header {
-    border: 0px;
-    display: flex; /* since this has child elements too*/
-    justify-content: left;
+#instagramtext {
+    font-size: larger;  
 }
-
-.catagories {
-    padding: 10px;
-    margin: 10px;
+#bioinput {
     display: flex;
+    font-size: larger;
+}
+#link {   
+    font-size: larger;
+    color: #083A6E; 
+}
+#followedby {
+    color: #B8B8B8;
+}
+.categories {
+    margin-top: 50px;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: auto;
+    height: 100px;
+    display: flex;
+    text-align: center;
     flex-direction: row;
 }
-
-.icon {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: left;
+.caption {
+    display: block;
 }
-
-.information {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+#talent {
+    text-align: center;
+}
+.link {
+    text-size-adjust: medium;
 }
